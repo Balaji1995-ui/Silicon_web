@@ -162,7 +162,7 @@
       <header class="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky">
         <div class="container px-3">
           <a href="index.php" class="navbar-brand pe-3">
-            <img src="assets/img/logo.svg" width="47" alt="Silicon">
+            <img src="assets/img/<?php echo $Car['logo']?>" width="47" alt="Silicon">
             <?php echo $Car['Header_title'] ?>
           </a>
           <?php } ?>
